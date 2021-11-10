@@ -6,11 +6,11 @@
     <title>Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body id="body">
+<body id="body" class="body">
 
 <header class="header_head"><h2>Now that's what I call a bad Portfolio!</h2></header>
 <header class="header_body">
-    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    <button class="button" onclick="toggleDarkMode()">Toggle Dark Mode</button>
     <at-butt href="#Portfolio"></at-butt>
     <at-butt href="#Filler"></at-butt>
     <at-butt href="#IFrame"></at-butt>
@@ -21,7 +21,7 @@
 
 <post-div backTitle="Welcome to my lame" id="Portfolio">
     <h3>A short introduction</h3>
-    <iframe src="resume.html" sandbox="allow-forms" height="300rem"></iframe>
+    <iframe class="iframe" src="resume.html" sandbox="allow-forms" height="300rem"></iframe>
 </post-div>
 
 <post-div backTitle="This section is nothing much but a big" id="Filler">
@@ -34,87 +34,87 @@
 </post-div>
 
 <post-div backTitle="Gladly presenting you a useless use of" id="IFrame">
-    <iframe src="something.html" sandbox="allow-scripts" height="250rem"></iframe>
+    <iframe class="iframe" src="something.html" sandbox="allow-scripts" height="250rem"></iframe>
 </post-div>
 
 <post-div backTitle="Please provide a" id="Feedback">
-    <iframe src="feedback.html" sandbox="allow-forms" height="280rem"></iframe>
+    <iframe class="iframe" src="feedback.html" sandbox="allow-forms" height="280rem"></iframe>
 </post-div>
 
 <post-div backTitle="This is a collection of all form" id="Inputs">
     <form method="POST">
 
         <label for="button">A Button</label>
-        <input type="button" id="button">
+        <input class='input' type="button" id="button">
 
         <label for="checkbox">A Checkbox</label>
-        <input type="checkbox" id="checkbox">
+        <input class='input' type="checkbox" id="checkbox">
 
         <label for="color">A Color</label>
-        <input type="color" id="color">
+        <input class='input' type="color" id="color">
 
         <label for="date">A Date</label>
-        <input type="date" id="date">
+        <input class='input' type="date" id="date">
 
         <label for="datetime-local">Another Date (local)</label>
-        <input type="datetime-local" id="datetime-local">
+        <input class='input' type="datetime-local" id="datetime-local">
 
         <label for="email">An Email</label>
-        <input type="email" id="email">
+        <input class='input' type="email" id="email">
 
         <label for="file">A File</label>
-        <input type="file" id="file"><br/><br/>
+        <input class='input' type="file" id="file"><br/><br/>
 
         <label for="hidden">Something is Hidden here xD</label>
-        <input type="hidden" id="hidden"><br/><br/>
+        <input class='input' type="hidden" id="hidden"><br/><br/>
 
         <label for="image">An Image</label>
-        <input type="image" id="image" alt="Hmm?">
+        <input class='input' type="image" id="image" alt="Hmm?">
 
         <label for="month">A Month</label>
-        <input type="month" id="month">
+        <input class='input' type="month" id="month">
 
         <label for="number">A Number</label>
-        <input type="number" id="number">
+        <input class='input' type="number" id="number">
 
         <label for="password">A Password</label>
-        <input type="password" id="password">
+        <input class='input' type="password" id="password">
 
         <p>A set of Radio buttons</p>
         <label for="apple">Apple</label>
-        <input type="radio" id="apple" name="radio">
+        <input class='input' type="radio" id="apple" name="radio">
         <label for="apple">Banana</label>
-        <input type="radio" id="banana" name="radio">
+        <input class='input' type="radio" id="banana" name="radio">
         <label for="apple">Carrot</label>
-        <input type="radio" id="carrot" name="radio">
+        <input class='input' type="radio" id="carrot" name="radio">
         <small>Carrot is a fruit.. right?</small> <br/><br/>
 
         <label for="range">A Range</label>
-        <input type="range" id="range">
+        <input class='input' type="range" id="range">
 
         <label for="reset">A Reset Button</label>
-        <input type="reset" id="reset">
+        <input class='input' type="reset" id="reset">
 
         <label for="search">A Search Bar</label>
-        <input type="search" id="search">
+        <input class='input' type="search" id="search">
 
         <label for="submit">A Submit Button</label>
-        <input type="submit" id="submit">
+        <input class='input' type="submit" id="submit">
 
         <label for="tel">A Telephone Number</label>
-        <input type="tel" id="tel">
+        <input class='input' type="tel" id="tel">
 
         <label for="text">Some Text</label>
-        <input type="text" id="text">
+        <input class='input' type="text" id="text">
 
         <label for="time">A Time</label>
-        <input type="time" id="time">
+        <input class='input' type="time" id="time">
 
         <label for="url">A URL</label>
-        <input type="url" id="url">
+        <input class='input' type="url" id="url">
 
         <label for="week">A Week</label>
-        <input type="week" id="week">
+        <input class='input' type="week" id="week">
     </form>
 </post-div>
 
@@ -208,7 +208,7 @@
     class AutoTitleButton extends HTMLElement {
         constructor() {
             super();
-            this.innerHTML = String.format('<a href="{0}">{1}</a>', this.getAttribute('href'), this.getAttribute('href').substr(1));
+            this.innerHTML = String.format('<a class="button" href="{0}">{1}</a>', this.getAttribute('href'), this.getAttribute('href').substr(1));
         }
     }
 

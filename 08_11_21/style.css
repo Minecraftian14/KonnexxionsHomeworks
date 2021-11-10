@@ -115,7 +115,7 @@
 /*//<editor-fold defaultstate="collapsed" desc="OTHER MISCELLANEOUS STYLINGS">*/
 
 
-body {
+.body {
     background-image: url("bck.png");
     background-repeat: repeat;
     background-size: 10%;
@@ -143,7 +143,7 @@ body {
     z-index: 1;
 }
 
-.header_body button, .header_body a {
+.header_body .button {
     padding: 6px 32px;
 
     background-color: #777;
@@ -158,13 +158,13 @@ body {
     display: inline-block;
 }
 
-iframe {
+.iframe {
     overflow: visible;
     width: 100%;
     border: none
 }
 
-input, textarea {
+.input {
     width: 100%;
     margin-bottom: 10px;
     background-color: #faffee;
