@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+</head>
+<body>
+
+<form action="mailto:21052051@kiit.ac.in" method="POST" enctype="multipart/form-data" name="EmailForm">
+    <label for="name">Please enter your name (optional)</label>
+    <input type="text" id="name" name="Name">
+
+    <label for="fun">Did you enjoy this crappy site? (floating point -1 to 1)</label>
+    <input type="range" id="fun" name="Fun" min="-100" max="100">
+
+    <label for="comment">Would you mind sharing a recommendation/review?</label>
+    <textarea id="comment" name="Comment" rows="6" cols=" 20"></textarea>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+
+<header class="header_head"><h2>Now that's what I call a bad Portfolio!</h2></header>
+<header class="header_body">
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    <at-butt href="#Portfolio"></at-butt>
+    <at-butt href="#Filler"></at-butt>
+    <at-butt href="#IFrame"></at-butt>
+    <at-butt href="#Feedback"></at-butt>
+    <at-butt href="#Inputs"></at-butt>
+</header>
+
+
+<post-div backTitle="Welcome to my lame" id="Portfolio">
+    <h3>A short introduction</h3>
+    <iframe src="resume.html" sandbox="allow-forms" height="300rem"></iframe>
+</post-div>
+
+<post-div backTitle="This section is nothing much but a big" id="Filler">
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.</p>
+</post-div>
+
+<post-div backTitle="Gladly presenting you a useless use of" id="IFrame">
+    <iframe src="something.html" sandbox="allow-scripts" height="250rem"></iframe>
+</post-div>
+
+<post-div backTitle="Please provide a" id="Feedback">
+    <iframe src="feedback.html" sandbox="allow-forms" height="275rem"></iframe>
+</post-div>
+
+<post-div backTitle="This is a collection of all form" id="Inputs">
+    <form method="POST">
+
+        <label for="button">A Button</label>
+        <input type="button" id="button">
+
+        <label for="checkbox">A Checkbox</label>
+        <input type="checkbox" id="checkbox">
+
+        <label for="color">A Color</label>
+        <input type="color" id="color">
+
+        <label for="date">A Date</label>
+        <input type="date" id="date">
+
+        <label for="datetime-local">Another Date (local)</label>
+        <input type="datetime-local" id="datetime-local">
+
+        <label for="email">An Email</label>
+        <input type="email" id="email">
+
+        <label for="file">A File</label>
+        <input type="file" id="file"><br/><br/>
+
+        <label for="hidden">Something is Hidden here xD</label>
+        <input type="hidden" id="hidden"><br/><br/>
+
+        <label for="image">An Image</label>
+        <input type="image" id="image" alt="Hmm?">
+
+        <label for="month">A Month</label>
+        <input type="month" id="month">
+
+        <label for="number">A Number</label>
+        <input type="number" id="number">
+
+        <label for="password">A Password</label>
+        <input type="password" id="password">
+
+        <p>A set of Radio buttons</p>
+        <label for="apple">Apple</label>
+        <input type="radio" id="apple" name="radio">
+        <label for="apple">Banana</label>
+        <input type="radio" id="banana" name="radio">
+        <label for="apple">Carrot</label>
+        <input type="radio" id="carrot" name="radio">
+        <small>Carrot is a fruit.. right?</small> <br/><br/>
+
+        <label for="range">A Range</label>
+        <input type="range" id="range">
+
+        <label for="reset">A Reset Button</label>
+        <input type="reset" id="reset">
+
+        <label for="search">A Search Bar</label>
+        <input type="search" id="search">
+
+        <label for="submit">A Submit Button</label>
+        <input type="submit" id="submit">
+
+        <label for="tel">A Telephone Number</label>
+        <input type="tel" id="tel">
+
+        <label for="text">Some Text</label>
+        <input type="text" id="text">
+
+        <label for="time">A Time</label>
+        <input type="time" id="time">
+
+        <label for="url">A URL</label>
+        <input type="url" id="url">
+
+        <label for="week">A Week</label>
+        <input type="week" id="week">
+    </form>
+</post-div>
+
+
+<!--
+<script>
+    window.onload = function () {
+        let frames = document.getElementsByName("iframe");
+        Array.prototype.forEach.call(frames, function (frm) {
+            let doc = frm.contentDocument;
+            doc.body.innerHTML = doc.body.innerHTML + doc.body.innerHTML + '<style>' +
+                'body {' +
+                '   color: red;' +
+                '}' +
+                '</style>';
+        });
+        let myiFrame = document.getElementById("myiFrame");
+        let doc = myiFrame.contentDocument;
+        doc.body.innerHTML = doc.body.innerHTML + '<style>/******* Put your styles here *******</style>';
+    }
+</script>
+-->
+
+
+<!-- Definition of toggleDarkMode -->
+<script>
+
+    darkMode = false;
+
+    function toggleDarkMode() {
+
+        var eles = document.getElementsByClassName("blend");
+
+        if (darkMode) {
+            Array.prototype.forEach.call(eles, function (ele) {
+                ele.style.mixBlendMode = "darken";
+            });
+            document.body.style.backgroundImage = "url('bck.png')";
+            document.body.style.color = "black";
+
+        } else {
+            Array.prototype.forEach.call(eles, function (ele) {
+                ele.style.mixBlendMode = "overlay";
+            });
+            document.body.style.backgroundImage = "url('bckb.png')";
+            document.body.style.color = "white";
+        }
+
+
+        darkMode = !darkMode;
+
+    }
+
+</script>
+
+<!-- Definition of String.format -->
+<script>
+    // https://stackoverflow.com/a/4673436
+    if (!String.format) {
+        String.format = function (format) {
+            var args = Array.prototype.slice.call(arguments, 1);
+            return format.replace(/{(\d+)}/g, function (match, number) {
+                return typeof args[number] != 'undefined'
+                    ? args[number]
+                    : match
+                    ;
+            });
+        };
+    }
+</script>
+
+<!-- Definition of custom elements. -->
+<script>
+
+    class PostDiv extends HTMLElement {
+
+        static colors = ['cornsilk', 'azure', 'aliceblue', 'bisque', 'aquamarine', 'blanchedalmond', 'cadetblue', 'darkseagreen', 'gainsboro']
+        static index = 0;
+
+        get backTitle() {
+            return this.hasAttribute('backTitle');
+        }
+
+        get title() {
+            return this.hasAttribute('id');
+        }
+
+        set backTitle(val) {
+            if (val) this.setAttribute('backTitle', val);
+            else this.removeAttribute('backTitle');
+        }
+
+        set title(val) {
+            if (val) this.setAttribute('id', val);
+            else this.removeAttribute('id');
+        }
+
+        constructor() {
+            super();
+
+            this.innerHTML = String.format('' +
+                '<div class="post"><div class="blend" style="background-color: {3}"></div>' +
+                '   <i>{0}</i>' +
+                '   <h1>{1}</h1>' +
+                '   {2}' +
+                '</div>' +
+                '<br/>'
+                , this.getAttribute('backTitle'), this.getAttribute('id'), this.innerHTML, PostDiv.colors[PostDiv.index++]);
+        }
+    }
+
+    class AutoTitleButton extends HTMLElement {
+        constructor() {
+            super();
+            this.innerHTML = String.format('<a href="{0}">{1}</a>', this.getAttribute('href'), this.getAttribute('href').substr(1));
+        }
+    }
+
+    window.customElements.define('post-div', PostDiv);
+    window.customElements.define('at-butt', AutoTitleButton);
+
+</script>
+
+</body>
+</html>

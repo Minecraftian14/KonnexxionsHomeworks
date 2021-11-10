@@ -1,0 +1,50 @@
+.post {
+    margin-left: 20%;
+    margin-right: 20%;
+
+    padding: 3%;
+    border: 2px solid gainsboro;
+    border-left: 6px solid black;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+    mix-blend-mode: darken;
+}
+
+body {
+    background-image: url("bck.png");
+    background-repeat: repeat;
+    background-size: 10%;
+}
+
+h1 {
+    font-family: monospace;
+}
+
+h1:before {
+    content: "__";
+}
+
+h1:after {
+    content: "‾‾";
+}
+
+iframe {
+    overflow: hidden;
+    width: 100%;
+    border: none
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #faffee;
+    border: 1px solid gray;
+}
+
+@media screen and (max-width: 600px) {
+    .post {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

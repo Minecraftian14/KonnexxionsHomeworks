@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleUserHome" value="D:/Applications/.gradle" />
+    <option name="projectSyncType">
+      <map>
+        <entry key="D:/Downloads/GeometryD" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../JAVA/CHESS" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../JAVA/Mindustry" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../JAVA/Mindustry-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../JAVA/MyNewGame" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../JAVA/ShaderCompiler3DStandard" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../JAVA/Space Gladiators" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../JAVA/Starscape" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../JAVA/TetraWorld" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../JAVA/Tetra_World" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\aniru\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\202.6397.94\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="20jDtwEPxyeV1YaWYgHYVayHJ6L" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+</project>
