@@ -119,26 +119,6 @@
 </post-div>
 
 
-<!--
-<script>
-    window.onload = function () {
-        let frames = document.getElementsByName("iframe");
-        Array.prototype.forEach.call(frames, function (frm) {
-            let doc = frm.contentDocument;
-            doc.body.innerHTML = doc.body.innerHTML + doc.body.innerHTML + '<style>' +
-                'body {' +
-                '   color: red;' +
-                '}' +
-                '</style>';
-        });
-        let myiFrame = document.getElementById("myiFrame");
-        let doc = myiFrame.contentDocument;
-        doc.body.innerHTML = doc.body.innerHTML + '<style>/******* Put your styles here *******</style>';
-    }
-</script>
--->
-
-
 <!-- Definition of toggleDarkMode -->
 <script>
 
@@ -146,7 +126,7 @@
 
     function toggleDarkMode() {
 
-        var eles = document.getElementsByClassName("blend");
+        const eles = document.getElementsByClassName("blend");
 
         if (darkMode) {
             Array.prototype.forEach.call(eles, function (ele) {

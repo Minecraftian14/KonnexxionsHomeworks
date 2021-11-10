@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03577023-20d5-4aa7-aa9e-58a376c58b97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_11_21/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/08_11_21/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_11_21/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/08_11_21/style.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="myGradleUserHome" value="D:/Applications/.gradle" />
-    <option name="projectSyncType">
-      <map>
-        <entry key="D:/Downloads/GeometryD" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../JAVA/CHESS" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../JAVA/Mindustry" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../JAVA/Mindustry-master" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../JAVA/MyNewGame" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../JAVA/ShaderCompiler3DStandard" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../JAVA/Space Gladiators" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../JAVA/Starscape" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../JAVA/TetraWorld" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../JAVA/Tetra_World" value="PREVIEW" />
-      </map>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -28,10 +28,62 @@
     </option>
   </component>
   <component name="ProjectId" id="20jDtwEPxyeV1YaWYgHYVayHJ6L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/KonnexxionsHomeworks/08_11_21/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03577023-20d5-4aa7-aa9e-58a376c58b97" name="Default Changelist" comment="" />
+      <created>1636549321085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636549321085</updated>
+      <workItem from="1636549322357" duration="1828000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
