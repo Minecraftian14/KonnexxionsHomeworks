@@ -79,7 +79,7 @@
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-.card {
+.div_card {
     width: 100%;
     height: 100%;
 
@@ -87,21 +87,21 @@
     flex-direction: row;
 }
 
-.card img {
+.div_card img {
     width: 30%;
     border: double gray 2px;
 }
 
-.card table {
+.div_card table {
     margin: 20px;
 }
 
-.card table tr {
+.div_card table tr {
     display: block;
     float: left;
 }
 
-.card table td {
+.div_card table td {
     display: block;
     padding: 5px;
 }
