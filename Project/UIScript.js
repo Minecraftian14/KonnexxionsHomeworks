@@ -74,7 +74,6 @@ if ($(window).width() > 800) {
     });
 
     $(".overlay_div_which_i_sincerely_hate").click(function () {
-        console.log("1");
         $(".div_content_place").css("width", "91%");
         $(".div_band_b").css("width", "3%");
         $(".div_content_place").css("opacity", "1");
