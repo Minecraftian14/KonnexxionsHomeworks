@@ -21,6 +21,8 @@
     div_content_place.css.opacity = 1
     div_content_place.css.cursor =
     overlay_div_which_i_sincerely_hate.css.display = none
+    div_band_a.css.width = 3%
+    div_band_b.css.width = 3%
     div_band_c.css.width = 3%
 
 .div_band_b > click:
@@ -37,11 +39,11 @@
 
 #wavy_underlined_text,.horizontal_item p > click:
     #band_a.css.width = 91%
-    div_band_a.css.width = 85%
+    div_band_a.css.width = 91%
     div_content_place.css.opacity = 0
     div_band_a.css.opacity = 1
-    div_band_c.css.width = 85%
-    div_band_b.css.width = 85%
+    div_band_c.css.width = 91%
+    div_band_b.css.width = 91%
     overlay_div_which_i_sincerely_hate.css.cursor = pointer
     overlay_div_which_i_sincerely_hate.css.display = block
 
