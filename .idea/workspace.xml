@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="03577023-20d5-4aa7-aa9e-58a376c58b97" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/UICustomScript.jskey" beforeDir="false" afterPath="$PROJECT_DIR$/Project/UICustomScript.jskey" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/UIScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project/UIScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,12 +51,16 @@
       <recent name="D:\Projects\WEB\KonnexxionsHomeworks\Project" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/KonnexxionsHomeworks/Project/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/KonnexxionsHomeworks/08_11_21/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -76,7 +81,7 @@
       <workItem from="1649509428036" duration="2579000" />
       <workItem from="1649520728312" duration="5086000" />
       <workItem from="1649651756468" duration="73000" />
-      <workItem from="1649766154134" duration="1233000" />
+      <workItem from="1649766154134" duration="4870000" />
     </task>
     <servers />
   </component>
