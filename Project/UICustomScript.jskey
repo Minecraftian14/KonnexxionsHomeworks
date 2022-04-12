@@ -35,8 +35,8 @@
 .p_heading span,.horizontal_item p,.fab,.fas > hover:
     this.css.cursor = pointer
 
-<HASH>wavy_underlined_text,.horizontal_item p > click:
-    <HASH>band_a.css.width = 91%
+#wavy_underlined_text,.horizontal_item p > click:
+    #band_a.css.width = 91%
     div_band_a.css.width = 85%
     div_content_place.css.opacity = 0
     div_band_a.css.opacity = 1
