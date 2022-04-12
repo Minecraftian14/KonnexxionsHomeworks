@@ -1,6 +1,14 @@
 // noinspection JSJQueryEfficiency
 
+const fr = new FileReader();
+fr.onload = function () {
+    document.getElementById('output')
+        .textContent = fr.result;
+}
+fr.readAsText('');
+
 if ($(window).width() > 800) {
+
 
     $(".div_band_a").click(function func() {
         $(this).css("width", "91%");
